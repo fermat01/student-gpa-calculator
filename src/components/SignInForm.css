@@ -9,7 +9,7 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
-h2 h3 h4 {
+h2, h3 ,h4 {
   text-align: center; /* Center the heading */
   color: #333; /* Dark text color */
   font-size: 1.5em; /* Font size for the heading */
