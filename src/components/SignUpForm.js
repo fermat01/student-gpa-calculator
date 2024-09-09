@@ -38,7 +38,8 @@ const SignUpForm = () => {
 
   return (
     <div className="signup-form">
-      <h2>Sign Up</h2>
+      <h3> Student gpa system calculator </h3>
+      <h4>Sign Up</h4>
       <form onSubmit={handleSubmit}>
         <input
           type="text"

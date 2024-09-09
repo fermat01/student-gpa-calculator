@@ -24,7 +24,8 @@ const SignInForm = () => {
 
   return (
     <div className="signin-form">
-      <h2>Sign In</h2>
+      <h3> Student gpa system calculator </h3>
+      <h4>Sign In</h4>
       <form onSubmit={handleSubmit}>
         <input
           type="email"
@@ -50,7 +51,6 @@ const SignInForm = () => {
           Sign up
         </a>
       </p>
-     
     </div>
   );
 };
