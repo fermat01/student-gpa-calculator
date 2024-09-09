@@ -1,0 +1,72 @@
+/* Mobile styles */
+.signup-form {
+  width: 90%; 
+  max-width: 400px; 
+  margin: 20px auto; 
+  padding: 20px;
+  background-color: #f4f4f4; 
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+h2 {
+  text-align: center; 
+  color: #333;
+  font-size: 1.5em; 
+}
+
+
+
+
+
+form {
+  display: flex;
+  flex-direction: column; 
+}
+
+input {
+  margin-bottom: 10px; /* Space below each input */
+  padding: 8px; /* Inner padding for inputs */
+  border: 1px solid #ddd; /* Light border for inputs */
+  border-radius: 4px; /* Slightly rounded corners */
+}
+
+button {
+  padding: 10px; /* Inner padding for button */
+  background-color:  #3474c7; /* Green background color */
+  color: white; /* White text color */
+  border: none; /* No border */
+  border-radius: 4px; /* Slightly rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+
+.error-message{
+  color: red;
+  font-size: smaller;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.account-message {
+    font-family: 'Arial', sans-serif; /* You can change this to any font you prefer */
+    font-size: 18px; /* Adjust the size as needed */
+    color: #333; /* A dark gray color for better readability */
+    text-align: center; /* Center the text */
+    margin: 20px 0; /* Add some space above and below */
+}
+
+.sign-in-link {
+    color: #007BFF; /* A nice blue color for the link */
+    text-decoration: none; /* Remove the underline */
+    font-weight: bold; /* Make the link bold */
+}
+
+.sign-in-link:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+}

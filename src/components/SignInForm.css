@@ -1,0 +1,77 @@
+/* Mobile styles */
+.signin-form {
+  width: 90%; /* Full width on small screens */
+  max-width: 400px; /* Maximum width for the form */
+  margin: 20px auto; /* Center the form with top and bottom margin */
+  padding: 20px; /* Inner padding for the form */
+  background-color: #f4f4f4; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h2 {
+  text-align: center; /* Center the heading */
+  color: #333; /* Dark text color */
+  font-size: 1.5em; /* Font size for the heading */
+}
+
+p {
+  padding: 20px; /* Padding around the paragraph */
+  font-family: "Verdana", sans-serif; /* Font family for the paragraph */
+}
+
+form {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack children vertically */
+}
+
+input {
+  margin-bottom: 10px; /* Space below each input */
+  padding: 8px; /* Inner padding for inputs */
+  border: 1px solid #ddd; /* Light border for inputs */
+  border-radius: 4px; /* Slightly rounded corners */
+}
+
+button {
+  padding: 10px; /* Inner padding for button */
+  background-color: #406eab; /* Button background color */
+  color: white; /* White text color */
+  border: none; /* No border */
+  border-radius: 4px; /* Slightly rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+  background-color: #218838; /* Darker color on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 480px) {
+  .signin-form {
+    width: 95%; /* Increase width on smaller screens */
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+
+  h2 {
+    font-size: 1.3em; /* Slightly smaller font size for headings on mobile */
+  }
+
+  p {
+    padding: 15px; /* Adjust paragraph padding for smaller screens */
+  }
+
+  input {
+    padding: 10px; /* Increase padding for inputs on smaller screens */
+  }
+
+  button {
+    padding: 12px; /* Increase padding for buttons on smaller screens */
+  }
+}
+
+@media (min-width: 601px) {
+  .signin-form {
+    width: 90%; /* Maintain a good width on larger screens */
+  }
+}

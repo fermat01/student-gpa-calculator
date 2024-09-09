@@ -1,0 +1,53 @@
+/* Style for the parent container */
+.parent-container {
+  position: relative; /* Set the parent to relative positioning */
+  width: 100%; /* Full width */
+  height: auto; /* Change height to auto for responsiveness */
+  min-height: 400px; /* Minimum height for demonstration */
+  padding: 20px; /* Add padding for inner spacing */
+  box-sizing: border-box; /* Include padding in width/height calculations */
+}
+
+/* Style for the container2 */
+.container2 {
+  position: absolute; /* Set to absolute positioning */
+  top: 20px; /* Distance from the top */
+  right: 10px; /* Distance from the right */
+  padding: 10px; /* Padding */
+  border-radius: 5px; /* Rounded corners */
+
+}
+
+/* Style for the main content */
+.container1 {
+  padding: 20px; /* Padding for content */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .parent-container {
+    padding: 10px; /* Reduce padding on smaller screens */
+    min-height: 300px; /* Adjust minimum height */
+  }
+
+  .container2 {
+    top: 20px; /* Adjust top position */
+    right: 5px; /* Adjust right position */
+    padding: 8px; /* Reduce padding */
+  }
+}
+
+@media (max-width: 480px) {
+  .container2 {
+    top: 20px; /* Further adjust top position */
+    right: 3px; /* Further adjust right position */
+    padding: 5px; /* Further reduce padding */
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+ h2 {
+    font-size: small;
+ }
+  .container1 {
+    padding: 15px; /* Reduce padding for the main content */
+  }
+}

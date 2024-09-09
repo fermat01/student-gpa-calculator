@@ -1,0 +1,128 @@
+/* StudentForm.css */
+body {
+  background-image: url('/public/university.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.form-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%; /* Full width on small screens */
+  max-width: 400px; /* Maximum width for the form */
+}
+
+.student-form {
+  width: 30%; /* to adjust the width*/
+  margin: 20px auto; /* Center the form with top and bottom margin */
+  padding: 20px; /* Inner padding for the form */
+  background-color: #f4f4f4; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Full width */
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.gpa-result {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.gpa-result h3 {
+  color: #007bff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+.logout-button {
+  background-color: #f44336; /* Red background color */
+  color: white;              /* White text color */
+  border: none;              /* No border */
+  border-radius: 4px;       /* Rounded corners */
+  padding: 10px 20px;       /* Padding for the button */
+  font-size: 16px;          /* Font size */
+  cursor: pointer;           /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  margin-top: 20px;         /* Margin above the button */
+}
+
+.logout-button:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+}
+
+.sign-out-btn {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sign-out-btn:hover {
+  background-color: #c82333;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .form-container {
+    width: 95%; /* Increase width on smaller screens */
+  }
+
+  button {
+    width: 100%; /* Full width for buttons on small screens */
+  }
+
+  .header {
+    flex-direction: column; /* Stack header items vertically */
+    align-items: flex-start; /* Align items to the start */
+  }
+ h2 {
+    font-size: small;
+ }
+  .sign-out-btn {
+    width: 100%; /* Full width for sign-out button */
+    margin-top: 10px; /* Add margin for spacing */
+  }
+}
